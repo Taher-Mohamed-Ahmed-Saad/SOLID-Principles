@@ -4,7 +4,7 @@ The Single Responsibility Principle states that **a class should do one thing a
 
 This principle can be applied also to the function level not only on the class level.
 
-## Example that shows srp violation
+## Example that shows SRP violation
 
 ```java
 class Book {

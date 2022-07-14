@@ -8,9 +8,7 @@ So what this principle wants to say is: We should be able to add new functionali
 
 This principle can be applied using abstract classes or interfaces.
 
-
-
-## Example that shows ocp violation
+## Example that shows OCP violation
 
 Assume that we have class InvoicePersistence and we need to add the functionality to save to DB not only file.
 
@@ -56,6 +54,8 @@ here we changed in a class that is already working and tested.
 
 Here we create interface so any new features can be added to the overridden functions.
 
+![](/Users/taher/Library/Application%20Support/marktext/images/2022-07-14-06-25-06-image.png)
+
 ```java
 interface InvoicePersistence {
 
@@ -77,9 +77,6 @@ public class FilePersistence implements InvoicePersistence {
         // Save to file
     }
 }
-
 ```
 
 Now our persistence logic is easily extendable. If we want to add another database and have 2 different types of databases like MySQL and MongoDB, we can easily do that.
-
-
