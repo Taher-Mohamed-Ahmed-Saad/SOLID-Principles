@@ -55,4 +55,6 @@ But it is too specific. Because of that, our FreeParking class was forced to imp
 
 ## Solve the violation
 
+![](https://github.com/Taher-Mohamed-Ahmed-Saad/SOILD-Principles/blob/main/Images/2.png)
+
 We've now separated the parking lot. With this new model, we can even go further and split the **PaidParkingLot** to support different types of payment.

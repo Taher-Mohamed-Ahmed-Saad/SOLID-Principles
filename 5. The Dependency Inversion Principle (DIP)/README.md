@@ -10,8 +10,9 @@ We want our classes to be open to extension, so we have reorganized our dependen
 
 ## Example that shows DIP violation
 
-
+![](https://github.com/Taher-Mohamed-Ahmed-Saad/SOILD-Principles/blob/main/Images/3.png)
 
 ## Solve the violation using interface
 
+![](https://github.com/Taher-Mohamed-Ahmed-Saad/SOILD-Principles/blob/main/Images/4.png)
 
