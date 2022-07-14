@@ -54,7 +54,7 @@ here we changed in a class that is already working and tested.
 
 Here we create interface so any new features can be added to the overridden functions.
 
-![](https://github.com/Taher-Mohamed-Ahmed-Saad/SOILD-Principles/blob/main/1.%20The%20Single%20Responsibility%20Principle%20(srp)/img.png)
+![](https://github.com/Taher-Mohamed-Ahmed-Saad/SOILD-Principles/blob/main/2.%20The%20Open-Closed%20Principle%20(OCP)/img.png)
 
 ```java
 interface InvoicePersistence {
